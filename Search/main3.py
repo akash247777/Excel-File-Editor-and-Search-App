@@ -7,8 +7,8 @@ def main():
     st.title("Excel File Editor App")
 
     # Specify the file paths
-    file_path = 'C:\\Search\\supplier.xlsx'
-    matching_file_path = 'C:\\Search\\itemsearch.xlsx'
+    file_path = 'Search/supplier.xlsx'
+    matching_file_path = 'Search/itemsearch.xlsx'
     
     @st.cache_data
     def load_data(file_path):
